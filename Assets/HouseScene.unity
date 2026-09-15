@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenBoard (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5668377467189921648, guid: ba7d74f753d8f5f43ae8b0086a68d923, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -185,6 +189,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4734320111613639313, guid: ba7d74f753d8f5f43ae8b0086a68d923, type: 3}
   m_PrefabInstance: {fileID: 5703199}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &82308070
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8a03c4ca210692d4ba7e68147a640df6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 24.98
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8a03c4ca210692d4ba7e68147a640df6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8a03c4ca210692d4ba7e68147a640df6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8a03c4ca210692d4ba7e68147a640df6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8a03c4ca210692d4ba7e68147a640df6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8a03c4ca210692d4ba7e68147a640df6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8a03c4ca210692d4ba7e68147a640df6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8a03c4ca210692d4ba7e68147a640df6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8a03c4ca210692d4ba7e68147a640df6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8a03c4ca210692d4ba7e68147a640df6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8a03c4ca210692d4ba7e68147a640df6, type: 3}
+      propertyPath: m_Name
+      value: Rock(1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a03c4ca210692d4ba7e68147a640df6, type: 3}
 --- !u!1001 &193661212
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -237,6 +298,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenBoard (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5668377467189921648, guid: ba7d74f753d8f5f43ae8b0086a68d923, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -325,7 +390,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -452,6 +517,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4551007591719833276, guid: 1c429ec523ef32b48a91a2dcd309c9b1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     - target: {fileID: 7937411046355574685, guid: 1c429ec523ef32b48a91a2dcd309c9b1, type: 3}
       propertyPath: m_Name
       value: WoodenCorner
@@ -522,6 +591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenBoard (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5668377467189921648, guid: ba7d74f753d8f5f43ae8b0086a68d923, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -610,7 +683,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -718,7 +791,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -800,6 +873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenBoard (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5668377467189921648, guid: ba7d74f753d8f5f43ae8b0086a68d923, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -897,6 +974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenBoard (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5668377467189921648, guid: ba7d74f753d8f5f43ae8b0086a68d923, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -963,6 +1044,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenBoard
       objectReference: {fileID: 0}
+    - target: {fileID: 5668377467189921648, guid: ba7d74f753d8f5f43ae8b0086a68d923, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1036,7 +1121,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1159,7 +1244,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1283,6 +1368,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenBoard
       objectReference: {fileID: 0}
+    - target: {fileID: 5668377467189921648, guid: ba7d74f753d8f5f43ae8b0086a68d923, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1387,6 +1476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenBoard (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5668377467189921648, guid: ba7d74f753d8f5f43ae8b0086a68d923, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1574,6 +1667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenBoard (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5668377467189921648, guid: ba7d74f753d8f5f43ae8b0086a68d923, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1647,7 +1744,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1752,6 +1849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenBoard (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5668377467189921648, guid: ba7d74f753d8f5f43ae8b0086a68d923, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1910,6 +2011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenBoard (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5668377467189921648, guid: ba7d74f753d8f5f43ae8b0086a68d923, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1976,6 +2081,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenBoard (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5668377467189921648, guid: ba7d74f753d8f5f43ae8b0086a68d923, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2038,6 +2147,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenBoard (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5668377467189921648, guid: ba7d74f753d8f5f43ae8b0086a68d923, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2126,7 +2239,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2234,7 +2347,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2345,7 +2458,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2431,6 +2544,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenBoard (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5668377467189921648, guid: ba7d74f753d8f5f43ae8b0086a68d923, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2519,7 +2636,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2627,7 +2744,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2713,6 +2830,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenBoard
       objectReference: {fileID: 0}
+    - target: {fileID: 5668377467189921648, guid: ba7d74f753d8f5f43ae8b0086a68d923, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2783,6 +2904,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4551007591719833276, guid: 1c429ec523ef32b48a91a2dcd309c9b1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 045aef9d558667d4e9655b8be80f76cd, type: 2}
     - target: {fileID: 7937411046355574685, guid: 1c429ec523ef32b48a91a2dcd309c9b1, type: 3}
       propertyPath: m_Name
       value: WoodenCorner
@@ -2808,3 +2933,4 @@ SceneRoots:
   - {fileID: 333814957}
   - {fileID: 650324431}
   - {fileID: 1375756782}
+  - {fileID: 82308070}
