@@ -6,3 +6,4 @@ Models:
 https://polyhaven.com/a/fancy_picture_frame_02
 Player Edit:
 Jump Height increased
+Double jump activated
